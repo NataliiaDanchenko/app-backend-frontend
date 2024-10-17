@@ -1,7 +1,7 @@
 const express = require("express");
 const path = require("path");
 
-const PORT = 3000;
+const PORT = 3001;
 const STATIC_ASSETS_PATH = path.resolve(`${__dirname}/../../static`);
 
 const app = express();
